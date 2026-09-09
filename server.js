@@ -174,7 +174,8 @@ app.prepare().then(() => {
     });
   });
 
-  server.listen(3001, () => {
-    console.log('> Servidor listo y corriendo en http://localhost:3001');
+  const PORT = process.env.PORT || 3001;
+  server.listen(PORT, '0.0.0.0', () => {
+    console.log(`> Servidor listo y corriendo en el puerto ${PORT}`);
   });
 });
