@@ -1,33 +1,30 @@
 {
-  "name": "quien-me-conoce",
+  "name": "quien-me-conoce-mejor",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
+    "dev": "next dev",
+    "build": "rm -rf .next && next build",
     "start": "NODE_ENV=production node server.js",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
-    "express": "^5.2.1",
-    "framer-motion": "^13.2.0",
-    "lucide-react": "^1.43.0",
-    "next": "16.3.4",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "socket.io": "^4.8.3",
-    "socket.io-client": "^4.8.3"
+    "framer-motion": "^12.4.10",
+    "lucide-react": "^0.475.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
     "@types/canvas-confetti": "^1.9.0",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.4",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.0.0"
   }
 }
