@@ -2,9 +2,6 @@
   "name": "quien-me-conoce-mejor",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": ">=18.0.0 <21.0.0"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,8 +12,8 @@
     "framer-motion": "^11.11.17",
     "lucide-react": "^0.460.0",
     "next": "14.2.18",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1"
   },
